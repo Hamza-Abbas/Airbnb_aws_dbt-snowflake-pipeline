@@ -144,9 +144,6 @@ python main.py
 # Run all dbt models
 dbt run
 
-# Run data quality tests
-dbt test
-
 # Run snapshots (SCD Type-2)
 dbt snapshot
 ```
