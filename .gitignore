@@ -22,6 +22,13 @@ profiles.yml
 .env
 *.env
 
+# VS Code
+.vscode/
+
+# dbt subfolder credentials
+dbt_snowflake_aws/profiles.yml
+dbt_snowflake_aws/.user.yml
+
 # AWS credentials
 .aws/
 credentials
