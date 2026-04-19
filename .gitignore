@@ -5,6 +5,29 @@ build/
 dist/
 wheels/
 *.egg-info
+*.pyc
 
 # Virtual environments
 .venv
+
+# dbt artifacts
+target/
+dbt_packages/
+logs/
+.user.yml
+
+# Credentials 
+profiles.yml
+.env
+*.env
+
+# AWS credentials
+.aws/
+credentials
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+
